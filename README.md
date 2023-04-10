@@ -1,0 +1,2 @@
+# rules-textlint
+textlint rules
