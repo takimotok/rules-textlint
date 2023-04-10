@@ -1,0 +1,14 @@
+version: 1
+rules:
+  - pattern:
+    - 、
+    expected: ","
+  - pattern:
+    - 。
+    expected: .
+  - pattern:
+    - /,{2,}/
+    expected: ","
+  - pattern:
+    - /^(.+),\s*(.+)$/
+    expected: $1, $2

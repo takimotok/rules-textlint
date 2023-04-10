@@ -1,0 +1,31 @@
+{
+  "plugins": {},
+  "filters": {},
+  "rules": {
+    "preset-ja-technical-writing": {
+      "ja-no-weak-phrase": false,
+      "no-exclamation-question-mark": false,
+      "max-ten": {
+        "max": 3
+      },
+      "ja-no-mixed-period": {
+        "periodMark": "."
+      },
+      "no-mix-dearu-desumasu": true
+    },
+    "preset-ja-spacing": {
+      "ja-space-around-code": {
+        "before": true,
+        "after": true
+      },
+      "ja-space-between-half-and-full-width": true
+    },
+    "prh": {
+      "rulePaths": [
+        "./prh.yaml",
+        "node_modules/prh/prh-rules/media/WEB+DB_PRESS.yml",
+        "node_modules/prh/prh-rules/media/techbooster.yml"
+      ]
+    }
+  }
+}

@@ -1,2 +1,4 @@
 # rules-textlint
-textlint rules
+
+My own rules for textlint.
+
